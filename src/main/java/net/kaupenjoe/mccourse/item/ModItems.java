@@ -2,7 +2,9 @@ package net.kaupenjoe.mccourse.item;
 
 import net.kaupenjoe.mccourse.MCCourseMod;
 import net.kaupenjoe.mccourse.item.custom.ChainsawItem;
+import net.kaupenjoe.mccourse.item.custom.DataTabletItem;
 import net.kaupenjoe.mccourse.item.custom.FuelItem;
+import net.kaupenjoe.mccourse.item.custom.MetalDetectorItem;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -36,6 +38,11 @@ public class ModItems {
     public static final RegistryObject<Item> AURORA_ASHES = ITEMS.register("aurora_ashes",
             () -> new FuelItem(new Item.Properties(), 800));
 
+
+    public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
+            () -> new MetalDetectorItem(new Item.Properties().durability(100)));
+    public static final RegistryObject<Item> DATA_TABLET = ITEMS.register("data_tablet",
+            () -> new DataTabletItem(new Item.Properties().stacksTo(1)));
 
 
     public static void register(IEventBus eventBus) {

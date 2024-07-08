@@ -5,6 +5,10 @@
   "item.mccourse.onion": "Onion",
   "item.mccourse.aurora_ashes": "Aurora Ashes",
 
+  "item.mccourse.metal_detector": "Metal Detector",
+  "item.mccourse.data_tablet": "Data Tablet",
+
+
   "block.mccourse.azurite_block": "Block of Azurite",
 
   "block.mccourse.azurite_ore": "Azurite Ore",
@@ -36,6 +40,8 @@
 
   "tooltip.mccourse.magic_block.tooltip.1": "This Block is §9MAGICAL§r",
   "tooltip.mccourse.onion.tooltip.1": "Tastes Great, for an Onion!",
+
+  "item.mccourse.metal_detector.no_valuables": "No Valuables Found!",
 
   "creativetab.azurite_items": "Azurite Items",
   "creativetab.azurite_blocks": "Azurite Blocks"
